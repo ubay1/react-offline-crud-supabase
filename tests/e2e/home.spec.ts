@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 
 test("check title page", async ({ page }) => {
   await page.goto("/");
-  await expect(page).toHaveTitle("Vite + React + TS");
+  await expect(page).toHaveTitle("React Offline App");
 });
 
 test("check error message", async ({ page }) => {
