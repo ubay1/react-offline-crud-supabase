@@ -1,4 +1,4 @@
-# 🚀 Offline-First Kanban (React + PWA + IndexedDB + Supabase)
+# 🚀 Offline-First CRUD (React + PWA + IndexedDB + Supabase)
 
 Project ini adalah aplikasi **Offline-First** berbasis **React** dengan dukungan **Progressive Web App (PWA)**.
 Semua data utama disimpan di **IndexedDB** agar aplikasi tetap bisa berjalan walaupun user sedang offline.
