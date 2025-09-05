@@ -20,14 +20,6 @@ Saat koneksi internet tersedia, data akan **disinkronkan dengan Supabase** sebag
 
 ## 🏗️ Arsitektur
 
-```mermaid
-flowchart TD
-  User --> ReactApp
-  ReactApp --> IndexedDB
-  IndexedDB -->|Sync Online| Supabase
-  Supabase --> ReactApp
-```
-
 * **React App** → UI aplikasi utama.
 * **IndexedDB** → Penyimpanan lokal untuk mode offline.
 * **Supabase** → Cloud database untuk backup & sinkronisasi.
