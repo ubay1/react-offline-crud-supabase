@@ -12,7 +12,7 @@ export default defineConfig({
     devOptions: { enabled: true },
     manifest: {
       name: "React Offline App",
-      short_name: "ReactOfflineApp",
+      short_name: "React Offline App",
       start_url: ".",
       display: "standalone",
       background_color: "#ffffff",
